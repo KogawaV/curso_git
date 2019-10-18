@@ -1,0 +1,23 @@
+git add nome_do_arquivo: passa o arquivo para a staging area
+
+git commit nome_do_arquivo: passa o arquivo que estava na staging area 
+para o repositório:
+
+git diff nome_do_arquivo: mostra as alterações feitas neste arquivo (enquanto ele ainda não foi adicionado)
+
+git_status: mostra todos os arquivos que não foram adicionados(git add), todos os arquivos não comitados(git commit) e todos os arquivos que foram modificados.
+
+git log: vizualiza o histórico de commits
+
+git log --pretty=oneline: mostra o código e mensagem de todos os commits
+
+git commit --amend -m "Mensagem do commit": o parâmetro --amend permite que você altera um commit já feito, assim não precisa criar outro commit.
+(ele altera somente o último commit já feito).
+
+git checkout -- nome_do_arquivo: ele descarta as mudanças feitas no arquivo que está no seu working directory.(usado para reverter mudanças que deveriam ser feitas)
+
+git reset nome_do_arquivo: retira o arquivo da staging area (usado quando vc da um git add em um arquivo sem querer).
+
+git checkout -b nome_da_branch: cria uma branch(linha do tempo) diferente da master(main branch), assim vc pode realizar testes sem afetar diretamentar o conteúdo da master
+
+git merge nome_da_branch: sobe para a branch atual(branch destino) todas as alterações feitas na branch que foi chamada.
