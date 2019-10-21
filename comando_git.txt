@@ -21,3 +21,5 @@ git reset nome_do_arquivo: retira o arquivo da staging area (usado quando vc da 
 git checkout -b nome_da_branch: cria uma branch(linha do tempo) diferente da master(main branch), assim vc pode realizar testes sem afetar diretamentar o conteúdo da master
 
 git merge nome_da_branch: sobe para a branch atual(branch destino) todas as alterações feitas na branch que foi chamada.
+
+ssh-keygen: gera uma chave ssh para vincular com a conta do git
